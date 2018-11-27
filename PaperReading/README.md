@@ -3,3 +3,4 @@
 * [CBAM: Convolutional Block Attention Module](CBAM.md)
 * [Facial Expression Recognition in Video with Multiple Feature Fusion](HOG_TOP.md)
 * [A Brief Review of Facial Emotion Recognition Based on Visual Information](FER_survey.md)
+* [Deep Facial Expression Recognition: A Survey](Deep_FER.md)
