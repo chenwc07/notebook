@@ -21,9 +21,6 @@ In general, **cascaded regression** has become the most popular and state-ofthe-
 #### Deep networks for feature learning
 ##### CNN
 ![CNN](https://i.loli.net/2018/11/22/5bf67374e5b04.png)
-To read:
-  * faster R-CNN[105]
-  * 3D related methods[108,109]
 
 ##### DBN
 Restricted Boltzmann machines(看不懂)
@@ -122,6 +119,29 @@ Utilizing both textural and temporal information to encode more subtle expressio
 * DTAN and DTGN joint training
 ![fuse2](https://i.loli.net/2018/12/01/5c023499f38c7.png)
 
+##### Discussion
+1. Frame aggregation: handles frames without consideration of temporal information and subtle appearance changes
+2. Expression intensity-invariant networks: requires prior knowledge of expression intensity which is unavailable in real-world scenarios
+3. Deep spatio-temporal networks:
+   * *RNN* is incapable of capturing the powerful convolutional features
+   * *3D filers in C3D* are applied over very short video clips ignoring long-range dynamics
+   * *facial landmark trajectory* is sensitive to registration errors and requires accurate facial landmark detection, which is difficult to access in unconstrained conditions.
 
+#### Challenges and opportunities
+##### Facial expression datasets
+* FER literature focus on deep learning methods, making FER a data-driven task
+* The major challenge that deep FER systems face is the lack of training data in terms of both quantity and quality
+* the occlusion-robust and pose-invariant issues have receive less attention in deep FER than deep face recognition
 
+##### Incorporating other affective models
+* FACS model
+* Valence and arousal
+* Compound expression
 
+##### Dataset bias and imbalanced distribution
+* Data bias and inconsistent annotations are very common among different facial expression datasets
+* Another common problem in facial expression is class imbalance
+
+To read:
+  * 3D related methods[83], [108], [109], [112], [189], [197], [198]
+  * Saliency and aattention[159], [160]
