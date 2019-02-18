@@ -113,7 +113,7 @@ Utilizing both textural and temporal information to encode more subtle expressio
 * Conditional random fields(CRFs)
 
 **4. Network ensemble:**
-* Multi-channel network that extractes the spatial information from emotion-expressing faces and temporal information(optical flow) from the changes between emotional and neutral faces
+* Multi-channel network that extracts the spatial information from emotion-expressing faces and temporal information(optical flow) from the changes between emotional and neutral faces
 * PHRNN and MSCNN fusion
 ![fuse](https://i.loli.net/2018/12/01/5c0234632bab6.png)
 * DTAN and DTGN joint training

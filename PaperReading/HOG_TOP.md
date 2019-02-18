@@ -1,7 +1,7 @@
 ### [Facial Expression Recognition in Video with Multiple Feature Fusion](https://ieeexplore.ieee.org/document/7518582)
 
 * Two main streams of facial expressions analysis are widely adopted in the current research and development:
-  1. Detecting facial actions
+  1. Detecting facial actions(FACS)
   2. Carry out facial affect(emotion) recognition derectly
 
 * Two main kinds of methods:
@@ -23,7 +23,7 @@
   * Block based method:
   ![block](https://i.loli.net/2018/11/17/5befc688c9bb5.png)
 
-* **Geomertic warp feature**
+* **Geometric warp feature**
   * Derived from the warp transform of the facial landmarks
   * Divide the face area into some triangles using the facial landmarks
   ![landmark](https://i.loli.net/2018/11/17/5befee74e8a83.png)
