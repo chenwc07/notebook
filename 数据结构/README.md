@@ -2,3 +2,4 @@
 1. [Josephus问题](josephus问题/josephus问题.md)
 2. [正则表达式](python的正则表达式/python的正则表达式.md)
 3. [背包问题](背包问题/背包问题.md)
+4. [迷宫问题](迷宫问题/迷宫问题.md)
