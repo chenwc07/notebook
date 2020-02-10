@@ -46,7 +46,6 @@
 
 **submission 4**：
 ```python
-class Solution:
 
 ```
 
