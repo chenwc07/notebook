@@ -48,31 +48,6 @@ class Solution:
 ```
 
 
-**改进思路1**：
-
-
-**submission 2**：
-```python
-
-```
-
-
-**改进思路2**：
-
-**submission 3**：
-```python
-
-```
-
-
-**改进思路3**：
-
-**submission 4**：
-```python
-
-```
-
-
 <font color="#FF0000">**Attention**</font>:
 
 - 
